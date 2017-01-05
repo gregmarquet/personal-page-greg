@@ -98,7 +98,7 @@ img {
   max-height:100%;  
 }
 
-/******************** My Skills **********************/
+/******************** Quote **********************/
 
 .quote {
   display: flex;
@@ -111,4 +111,44 @@ img {
   font-family: PTSerif-Regular;
   font-size: 1.5em;
   color: #BBBBBB;
+}
+
+/******************** My Story **********************/
+
+.my-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Helvetica;
+  color:#424242;
+  line-height:35px;
+  padding-top: 10px;
+}
+
+.my-story h2 {
+  font-size: 2em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.my-story a {
+  color: red;
+  text-decoration: none;
+}
+
+.my-story a:hover {
+  color: brown;
+}
+
+.my-story p {
+  width: 75%;
+  margin-top: 20px;
+}
+
+
+.yellow {
+  background: #f9ee1e;
 }
