@@ -289,14 +289,36 @@ img {
   margin: 0 0 1.5em;
 }
 
-/* ---- Float clearfix ---- */
+/* ================================= 
+             Footer
+==================================== */
 
-/*.clearfix::after {
-  content: " ";
-  display: table;
-  clear: both;
+.footer {
+/*     position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #f9ee1e;
+    text-align: center;
+    line-height: 100px;
 }
-*/
+
+.logo {
+  display: inline-block;
+  float: right;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.redheart {
+  color:#ff0000; font-size:16px;    
+  font-family:'arial unicode MS', arial, geneva, sans-serif;
+}
+
+/* ================================= 
+          Media Queries
+==================================== */
 
 @media (max-width: 1200px) {
   .my-apps {
