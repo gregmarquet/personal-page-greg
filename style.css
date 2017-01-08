@@ -321,6 +321,12 @@ img {
     width: calc(50% - 30px);
     margin: 15px;
   }
+  .quote {
+    font-size: 1.2em;
+    height: 100px;
+    padding: 20px;
+    line-height: 30px;
+  }
   
 }
 
@@ -349,6 +355,13 @@ img {
     margin: 0px;
     padding-bottom: 20px;
   }
+  .landing-div h1 {
+    font-size: 4.3em;
+  }
+
+  .landing-div p {
+    font-size: 2em;
+  }
   
 }
 
@@ -362,6 +375,13 @@ img {
     width: 100%;
     margin: 0px;
     padding-bottom: 20px;
+  }
+  .landing-div h1 {
+    font-size: 3.5em;
+  }
+
+  .landing-div p {
+    font-size: 1.5em;
   }
   
 }
