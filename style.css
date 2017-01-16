@@ -58,7 +58,6 @@ table {
   box-sizing: border-box;
 }
 
-
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -434,6 +433,49 @@ img {
   .my-skills h2 {
   font-size: 1.5em;
   padding: 30px 0 10px 30px;
+}
+  
+}
+
+@media (max-width: 320px) {
+  .my-apps {
+    padding: 10px;
+    width: 100%;
+  }
+  .box{
+    height: 220px;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+  .landing-div h1 {
+    font-size: 2.6em;
+    padding-bottom: 5px;
+  }
+
+  .landing-div p {
+    /*padding-top: 5px;*/
+    font-size: 1em;
+  }
+  .my-skills h2 {
+    font-size: 1em;
+    padding: 30px 0 10px 30px;
+  }
+  .my-story {
+    font-size: 1em;
+  }
+  .quote {
+    font-size: 1em;
+    height: 100px;
+    /*padding: 30px;*/
+    line-height: 25px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+  .logo {
+  height: 16px;
+  /*margin-right: 10px;*/
 }
   
 }
