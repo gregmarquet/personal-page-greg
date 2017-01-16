@@ -83,10 +83,12 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
   height: 100vh;
   background: url(images/yellow-background.jpg) no-repeat center center fixed;
-  background-size: cover;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .landing-div h1 {
@@ -428,8 +430,13 @@ img {
 }
 
 @media (max-width: 320px) {
+  .app-container h1 {
+    font-size: 0.6em;
+    padding-top: 0px;
+    margin-bottom: 10px;
+  }
   .my-apps {
-    padding: 10px;
+    padding: 0 10px;
     width: 100%;
   }
   .box{
