@@ -431,11 +431,10 @@ img {
 
 @media (max-width: 320px) {
   .app-container h1 {
-    font-size: 0.6em;
-    padding-top: 0px;
-    margin-bottom: 10px;
+    font-size: 1.2em;
   }
   .my-apps {
+    margin-top: 15px;
     padding: 0 10px;
     width: 100%;
   }
@@ -454,7 +453,7 @@ img {
     font-size: 1em;
   }
   .my-skills h2 {
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 30px 0 10px 30px;
   }
   .my-story {
@@ -471,7 +470,7 @@ img {
     line-height: 25px;
   }
   .footer {
-    font-size: 14px;
+    font-size: 12px;
   }
   .logo {
   height: 16px;
